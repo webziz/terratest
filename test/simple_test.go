@@ -10,7 +10,7 @@ import (
 func TestTerraformHelloWorldExample(t *testing.T) {
 	terraformOptions := &terraform.Options{
 		// website::tag::1:: Set the path to the Terraform code that will be tested.
-		 TerraformDir: "../skeletor",
+		 TerraformDir: "../terratest",
 		// TerraformDir: os.Getenv("TerraPath"),
 	}
 
