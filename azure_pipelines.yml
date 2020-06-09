@@ -15,7 +15,9 @@ steps:
   inputs:
     terraformVersion: '0.12.3'
 
-- bash: |
-    echo $ARM_SUBSCRIPTION_ID 
+- task: Bash@3
+  inputs:
   displayName: "Run the tests"
-    script: 'ls -lahR'
+    script: |
+      ls -lah
+      echo $ARM_SUBSCRIPTION_ID 
