@@ -1,4 +1,4 @@
 resource "azurerm_resource_group" "target_rg" {
-  name     = "default-policies-example"
-  location = "West Europe"
+  name     = var.rg_name
+  location = var.location
 }
