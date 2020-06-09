@@ -18,4 +18,4 @@ steps:
 - task: Bash@3
   inputs:
     targetType: 'inline'
-    script: 'tree'
+    script: 'ls -lahR'
