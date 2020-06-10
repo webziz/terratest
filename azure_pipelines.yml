@@ -18,7 +18,8 @@ steps:
 - bash: |
     ls -lah
     echo fOOFOOFOOO
-  displayName: "Run the tests"
+  
+#displayName: "Run the tests"
 
 
 
