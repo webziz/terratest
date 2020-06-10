@@ -22,5 +22,5 @@ steps:
     cd test
     go mod init workaround
     go test -v
-  displayName: "Run bash script"  
+  displayName: "Run the tests"  
 
