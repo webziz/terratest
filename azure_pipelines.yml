@@ -20,4 +20,5 @@ steps:
   displayName: "Run the tests"
     script: |
       ls -lah
-      echo $ARM_SUBSCRIPTION_ID 
+      echo fOOFOOFOOO
+# echo $ARM_SUBSCRIPTION_ID 
