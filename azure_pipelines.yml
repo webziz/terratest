@@ -18,8 +18,14 @@ steps:
   inputs:
     terraformVersion: '0.12.3'
 
-- bash: |
-    cd test
-    go mod init fancyname
-    go test -v
-  displayName: "Run bash script"  
+# - bash: |
+#     cd test
+#     go mod init fancyname
+#     go test -v
+#   displayName: "Run bash script"  
+
+- task: Go@0
+inputs:
+  command: 'test'
+  arguments: '-v'
+  workingDirectory: 'test/'
