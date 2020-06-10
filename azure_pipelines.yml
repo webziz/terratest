@@ -26,6 +26,12 @@ steps:
 
 - task: Go@0
   inputs:
+    command: 'get'
+    arguments: '-d'
+    workingDirectory: 'test/'
+
+- task: Go@0
+  inputs:
     command: 'test'
     arguments: '-v'
     workingDirectory: 'test/'
