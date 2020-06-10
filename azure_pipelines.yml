@@ -22,7 +22,6 @@ steps:
 # 
 
 - bash: |
-    echo "Hello world from $AGENT_NAME running on $AGENT_OS"
-    echo "EHCC"
-    echo $ARM_SUBSCRIPTION_ID 
+    cd test
+    go test -v
   displayName: "Run bash script"  
