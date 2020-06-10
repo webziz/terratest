@@ -1,6 +1,9 @@
 trigger: 
  - master
 
+variables:
+ - group: terraform-app-registration
+
 pool:
    vmImage: 'ubuntu-latest'
 
