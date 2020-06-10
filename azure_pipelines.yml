@@ -25,7 +25,7 @@ steps:
 #   displayName: "Run bash script"  
 
 - task: Go@0
-inputs:
-  command: 'test'
-  arguments: '-v'
-  workingDirectory: 'test/'
+  inputs:
+    command: 'test'
+    arguments: '-v'
+    workingDirectory: 'test/'
